@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#000000"
-      }
+      },
+      "package": "com.i_am_mern.odyahtimbu"
     },
     "web": {
       "bundler": "metro",
@@ -40,6 +41,12 @@
         "projectId": "b322d209-cf3d-47b6-b7f0-a8607d14318b"
       }
     },
-    "owner": "i_am_mern"
+    "owner": "i_am_mern",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b322d209-cf3d-47b6-b7f0-a8607d14318b"
+    }
   }
 }

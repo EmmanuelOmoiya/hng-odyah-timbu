@@ -4,6 +4,7 @@ import {
   ActivityIndicator,
   Text,
   RefreshControl,
+  TouchableOpacity,
 } from "react-native";
 import { Stack } from "expo-router";
 import { Search } from "@/components/ui/icons";
@@ -48,11 +49,11 @@ export default function HomeScreen() {
       {isLoading ? (
         <ActivityIndicator size={60} color="#ffffff" />
       ) : error ? (
+         <View style={{ height: "max-content", marginVertical: "auto" }}>   
         <Text
           style={{
             fontFamily: "MonumentRegular",
             color: "#f48602",
-            fontSize: 18,
             fontSize: 18,
             alignItems: "center",
             textAlign: "center",
@@ -61,6 +62,10 @@ export default function HomeScreen() {
         >
           Something went wrong
         </Text>
+        <TouchableOpacity style={{ backgroundColor: '#f48402', borderRadius: 6, paddingHorizontal: 20, paddingVertical: 13, width: 120, marginHorizontal: 'auto', marginTop: 20 }} onPress={()=> refetch()}>
+          <Text style={{ fontFamily: 'MonumentRegular', color: '#ffffff', width: 'fit-content' }}>Refresh</Text>
+        </TouchableOpacity>
+      </View>
       ) : (
         <FlatList
           data={data.items}
