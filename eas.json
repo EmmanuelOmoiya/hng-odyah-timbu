@@ -37,9 +37,6 @@
           "APP_ENV": "staging",
           "EXPO_NO_DOTENV": "1",
           "FLIPPER_DISABLE": "1",
-          "EXPO_PUBLIC_API_APP_ID": "QDTF9SOPCCE02LP",
-          "EXPO_PUBLIC_API_KEY": "66316df942bf46e9aebf1b631db8cce420240710103143398861",
-          "EXPO_PUBLIC_API_ORGANIZATION_ID": "6fc2cd1de60d49a6b3f06d3b030a825e"
         },
   
         "prebuildCommand": "prebuild --skip-dependency-update react",
