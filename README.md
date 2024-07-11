@@ -51,8 +51,8 @@ Home Screen
 ![Product details](./assets/screenshots/Details.jpg)
 Product Details
 
-> Check out this [link](https://appetize.io/app/b_6x6i6wztqysnypy6xo6fnrbarq) for the live preview of Odyah App
+> Check out this [link](https://appetize.io/app/b_zyrklth7zwzzia4bp4plhdwbwe) for the live preview of Odyah App
 
 
 ## APK Download Link
-Download the apk from here [Odyah App](https://expo.dev/artifacts/eas/5RTgxb6SphLDwkMGqB9KXW.apk)
+Download the apk from here [Odyah App](https://expo.dev/artifacts/eas/3Je9Bqq7nodphsUiT35LwP.apk)
